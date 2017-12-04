@@ -1,0 +1,295 @@
+/***** Jubilee code needs to be modified 4 portfolio *****/
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #skills, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+.half-width {
+    width: 50%;
+    float: left;
+}
+.third-width {
+    width: 33%;
+    float: left;
+}
+
+/***** HEADER *****/
+
+
+header h1 {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 150px;
+    font-weight: normal;
+    color: #7d6b60;
+    margin: 0 0 0 60px; 
+    padding: 0;
+    /*padding: -900,0,0,0;*/
+}
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c8a5a2;
+    float: right;
+    padding: 65px 40px;
+}
+header {
+    height: 600px;
+    /**background: url('file:///Users/Fonderson/Desktop/WEB/SkillCrush/Milestone%20B%20&%20L/milestone-portfolio-project/img/header-pic.png');**/
+    background: url('../img/header-pic-4.png');
+    background-size: cover;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #c8a5a2;
+    padding-top: 40px;
+    padding-left: 20px;
+    float: right;
+}
+#header h2 {
+    /*width: 1000px;*/
+    clear: both;
+    font-family:  'Lora', serif;
+    font-size: 72px;
+    text-align: center;
+    line-height: 80px;
+    color: #9b9b9b;
+    margin: 0 ; 
+    padding: 0;
+    /*padding: 20px 0;*/
+}
+/*** header h2 span {
+    color: #2b2b2b;
+} ****/
+
+/***** ABOUT *****/
+
+/*#about.full-width {
+    padding: 80px 0;
+    color: #f2e5d9;
+}*/
+#about {
+    /*height: 600px;*/
+    width: 100%;
+    background: url('../img/about-section-title-4.jpg') 0px 600px;  
+    /*background: url('file:///Users/Fonderson/Desktop/WEB/SkillCrush/Milestone%20B%20&%20L/milestone-portfolio-project/img/about-section-title.jpg/Fonderson/Desktop/WEB/SkillCrush/Milestone%20B%20&%20L/milestone-portfolio-project/img/about-section-title.jpg');*/
+    background-size: cover;
+   
+
+}
+
+#about h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:extra-light;
+    font-size: 650px;
+    color: #c1bbb5;
+}
+#about p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: normal;
+    font-size:20px;
+    text-align: center;
+    color: #262a2b;
+    line-height: 36px;
+    margin: 0; 
+    padding: 0 50px 0 270px;
+   /* padding-right: 50px;*/ /* might not be needed*/
+  }
+
+  #about img {
+      margin-top: -13px;
+      margin-left: 614px;
+      margin-right: 0px;
+  }
+
+/***** SKILLS *****/
+
+#skills {
+    height: 600px;
+    background: url('../img/skills-section-title.jpg') 0px 1800px;
+  /*background-color: #e3dddd;*/
+    background-size: cover;
+    text-align: center;
+}
+
+#skills .full-width {
+    padding: 115px 0;
+}
+
+#skills h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: extra-light;
+    font-size: 765px;
+    color: #aa6561;
+}
+/*#skills img {
+    padding-bottom: 30px;
+}*/
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: thin;
+    font-size: 24px;
+    text-align: center;
+    color: #aa6561;
+    /*width: 190px;*/
+    margin: 40px;
+}
+
+#skills p {
+
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size:18px;
+  color: #262a2b; /* possibly black here */
+  line-height: 30px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px; /* might not be needed*/
+}
+
+/***** WORK *****/
+
+#work {
+    height: 600px;
+    background : url('../img/work-section-title-4-1.jpg') 0px 1800px;
+    /*background-color: #f1e5d7;/* should this be the same as about?*/
+    background-size: cover;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;/* might not be needed*/
+}
+#work h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: extra-light;
+    font-size: 765px;
+    color: #b9b1aa;
+    /*text-align: center;*/
+    /*width: 190px;*/ /* might not be needed*/
+    margin: auto;
+}
+#work img {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    clear: both;
+}
+
+#work h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: medium;
+    font-size: 24px;
+    text-align: center;
+    /*width: 190px;*/ /* might not be needed*/
+    margin: auto;
+}
+
+#work p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size:18px;
+    color: #262a2b; /* possibly black here */
+    line-height: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px; /* might not be needed*/
+}
+
+/***** CONTACT *****/
+
+#contact {
+    height: 600px;
+    background : url('../img/contact-pic-4.jpg') /*0px 2400px*/;
+    background-size: cover;
+}
+/*#contact .full-width {
+    padding: 110px 0; might not be needed
+
+}*/
+
+#contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: extra-light;
+    font-size: 500px;
+    color: #aa6561;
+    /*text-align: center;*/
+    /*width: 190px;*/ /* might not be needed*/
+    margin: auto;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h3 #tagline-1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #aa6561;
+}
+#contact h4 /*#tagline-2*/ {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;/*27.92px*/
+  margin: 0;
+  padding-top: 340px;
+  padding-right: 150px;
+  /*padding-left: 750px;*/
+  font-weight: lighter;
+  color: #262a2b;
+  float: right;
+}
+#contact img {
+    padding-top: 345px;
+    padding-left: 715px;
+    clear: both;
+}
+
+/*#contact h4 #name-1, #name-2, #message{
+  font-family: 'Raleway', sans-serif;
+  font-size: 27.94px;
+    font-weight: thin-italic;
+    color: #ffffff;
+}
+#contact h4 #send {
+  font-family: 'Raleway', sans-serif;
+  font-size: 27.94px;
+    font-weight: regular;
+    color: #b1c0c9;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  #contact ul {
+      list-style: none;
+  }
+  #contact ul li {
+       display: inline-block;
+  }
+  #contact ul img {
+      font-size: 32px;
+      padding-right: 48px;
+  }*/
